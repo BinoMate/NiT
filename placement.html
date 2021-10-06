@@ -20,6 +20,27 @@
     <link rel="stylesheet" type="text/css" href="assets/css/card.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: center;
+        padding: 8px;
+        font-size: larger;
+
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+
 </head>
 
 <body>
@@ -120,7 +141,7 @@
             <ul class="breadcrumb">
                 <li><a href="index.html">Home</a></li>
                 <li>
-                    Product
+                    Placement
                 </li>
             </ul>
         </div>
@@ -128,16 +149,18 @@
         <div class="col-md-3">
             <div class="panel panel-default sidebar-menu">
                 <div class="panel-heading">
-                    <h1 class="panel-title"><b>Product Categories</b></h1>
+                    <h1 class="panel-title"><b>Companies</b></h1>
                 </div>
                 <div class="panel-body">
                     <ul class="nav nav-pills nav-stacked category-menu">
-                        <li><a href="product.html">Jackets</a></li>
-                        <li><a href="product.html">Watches</a></li>
-                        <li><a href="product.html">Shoes</a></li>
-                        <li><a href="product.html">Suits</a></li>
-                        <li><a href="product.html">T-shirts</a></li>
-                        <li><a href="product.html">Bags</a></li>
+                        <li><a>Accenture</a></li>
+                        <li><a>Capgemini</a></li>
+                        <li><a>TCS</a></li>
+                        <li><a>CTS</a></li>
+                        <li><a>IBM</a></li>
+                        <li><a>Infosys</a></li>
+                        <li><a>BYJU’S</a></li>
+                   
                     </ul>
                 </div>
             </div>
@@ -160,14 +183,14 @@
 
             <div class="panel panel-default sidebar-menu">
                 <div class="panel-heading">
-                    <h1 class="panel-title"><b>Price</b></h1>
+                    <h1 class="panel-title"><b>Average Package</b></h1>
 
                 </div>
                 <div class="panel-body">
                     <input type="range" min="100" max="1000" step="100" class="form-control-range"
                         style="padding: 5px;">
                     <center>
-                        <h3 class="panel-title"><b>Rs 100 - &nbsp;Rs 1000</b></h3>
+                        <h3 class="panel-title"><b>3.5 LPA  - 10 LPA</b></h3>
                     </center>
                 </div>
             </div>
@@ -176,185 +199,35 @@
 
         <!-- Right Side Products Start -->
         <div class="col-md-9">
-            <div class="box" style="box-shadow: 0 1px 5px rgba(0,0,0,0.7);">
-                <h1>Product</h1>
-                <p>This theme is created by Arijit Saha Ray, who is currently studying B.Tech in CSE.</p>
-                <p>An online shop evokes the physical analogy of buying products or services at a regular
-                    "bricks-and-mortar" retailer or shopping center; the process is called business-to-consumer online
-                    shopping. When an online store is set up to enable businesses to buy from another businesses, the
-                    process is called business-to-business online shopping.</p>
-            </div>
-            <!-- Products Details -->
-            <div class="row">
-                <!-- Product Starts -->
-                <div class="col-md-4 col-sm-6 center responsive">
-                    <div class="product">
-                        <a href="details.html">
-                            <img src="assets/img/man-3.jpg" class="img-responsive">
-                        </a>
-                        <div class="text">
-                            <h3>
-                                <a href="details.html">Pineapple Jacket</a>
-                            </h3>
-                            <p class="price">Rs 1250</p>
-                            <center>
-                                <p class="rating"><i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-o"></i>
-                                </p>
-                            </center>
-                            <p class="buttons">
-                                <a href="details.html" class="btn btn-default">View Details</a>
-                                <a href="cart.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to
-                                    Cart</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Product Ends -->
-                <!-- Product Starts -->
-                <div class="col-md-4 col-sm-6 center responsive">
-                    <div class="product">
-                        <a href="details.html">
-                            <img src="assets/img/product-2.jpg" class="img-responsive">
-                        </a>
-                        <div class="text">
-                            <h3>
-                                <a href="details.html">Leather Jacket</a>
-                            </h3>
-                            <p class="price">Rs 780</p>
-                            <center>
-                                <p class="rating"><i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-half-o"></i>
-                                </p>
-                            </center>
-                            <p class="buttons">
-                                <a href="details.html" class="btn btn-default">View Details</a>
-                                <a href="cart.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to
-                                    Cart</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Product Ends -->
-                <!-- Product Starts -->
-                <div class="col-md-4 col-sm-6 center responsive">
-                    <div class="product">
-                        <a href="details.html">
-                            <img src="assets/img/thumb-5.png" class="img-responsive">
-                        </a>
-                        <div class="text">
-                            <h3>
-                                <a href="details.html">Hooded Thermal Anorak</a>
-                            </h3>
-                            <p class="price">Rs 1499</p>
-                            <center>
-                                <p class="rating"><i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-half-o"></i>
-                                    <i class="fa fa-star-o"></i>
-                                </p>
-                            </center>
-                            <p class="buttons">
-                                <a href="details.html" class="btn btn-default">View Details</a>
-                                <a href="cart.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to
-                                    Cart</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Product Ends -->
-                <!-- Product Starts -->
-                <div class="col-md-4 col-sm-6 center responsive">
-                    <div class="product">
-                        <a href="details.html">
-                            <img src="assets/img/product-5.jpg" class="img-responsive">
-                        </a>
-                        <div class="text">
-                            <h3>
-                                <a href="details.html">Cotton T-Shirt</a>
-                            </h3>
-                            <p class="price">Rs 499</p>
-                            <center>
-                                <p class="rating"><i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-half-o"></i>
-                                </p>
-                            </center>
-                            <p class="buttons">
-                                <a href="details.html" class="btn btn-default">View Details</a>
-                                <a href="cart.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to
-                                    Cart</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Product Ends -->
-                <!-- Product Starts -->
-                <div class="col-md-4 col-sm-6 center responsive">
-                    <div class="product">
-                        <a href="details.html">
-                            <img src="assets/img/product-4.jpg" class="img-responsive">
-                        </a>
-                        <div class="text">
-                            <h3>
-                                <a href="details.html">Leather Hoodie</a>
-                            </h3>
-                            <p class="price">Rs 1250</p>
-                            <center>
-                                <p class="rating"><i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-o"></i>
-                                </p>
-                            </center>
-                            <p class="buttons">
-                                <a href="details.html" class="btn btn-default">View Details</a>
-                                <a href="cart.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to
-                                    Cart</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Product Ends -->
-                <!-- Product Starts -->
-                <div class="col-md-4 col-sm-6 center responsive">
-                    <div class="product">
-                        <a href="details.html">
-                            <img src="assets/img/product-12.jpg" class="img-responsive">
-                        </a>
-                        <div class="text">
-                            <h3>
-                                <a href="details.html">Tumbo Hoodie</a>
-                            </h3>
-                            <p class="price">Rs 867</p>
-                            <center>
-                                <p class="rating"><i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-half-o"></i>
-                                </p>
-                            </center>
-                            <p class="buttons">
-                                <a href="details.html" class="btn btn-default">View Details</a>
-                                <a href="cart.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to
-                                    Cart</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Product Ends -->
-            </div>
+<div class="box" style="box-shadow: 0 1px 5px rgba(0,0,0,0.7); height: 350px; ">
+    <img src="assets/images/pieChart.png" class="img-responsive">
+</div>
+
+            <div class="box" style="box-shadow: 0 1px 5px rgba(2, 1, 1, 0.7);">
+                <h1>HIGHEST PACKAGE OFFERED LAST THREE YEARS</h1>
+               
+                    <table>
+                        <tr>
+                            <th>Year</th>
+                            <th>INR</th>                       
+                        </tr>
+                        <tr>
+                            <td>2021</td>
+                            <td>10,00,000</td>                       
+                        </tr>
+                        <tr>
+                            <td>2020</td>
+                            <td>10,00,000</td>                       
+                        </tr>
+                        <tr>
+                            <td>2019</td>
+                            <td>7,00,000</td>                       
+                        </tr>
+                        </table>
+
+
+            </div>         
+
         </div>
         <!-- Right Side Products End -->
 
@@ -377,7 +250,7 @@
                     <ul>
                         <li><a href="cart.html">Shopping Cart</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="">Product</a></li>
+                        <li><a href="">Placement</a></li>
                         <li><a href="progress.html">My Account</a></li>
                     </ul>
                     <hr>
